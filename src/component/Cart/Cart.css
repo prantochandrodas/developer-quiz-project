@@ -7,11 +7,40 @@
     width: 251px;
     border: 1px solid rgb(207, 196, 196);
     margin: 20px 0;
-   
+   border-radius: 5px;
 }
 .cart-footer{
     display: flex;
     justify-content: space-between;
     margin: 10px 0;
     padding: 0 10px;
+}
+.cart-footer p{
+    font-size: 20px;
+}
+@media only screen and (max-width:688px){
+    .cart{
+        width: 94%;
+        border: 1px solid rgb(207, 196, 196);
+        margin: 20px auto;
+       border-radius: 5px;
+    }
+    .cart-img img{
+    
+        width: 100%;
+        
+    }
+}
+@media screen and (min-width:687px) and (max-width:991px){
+    .cart{
+        width: 94%;
+        border: 1px solid rgb(207, 196, 196);
+        margin: 20px auto;
+       border-radius: 5px;
+    }
+    .cart-img img{
+    
+        width: 100%;
+        
+    }
 }

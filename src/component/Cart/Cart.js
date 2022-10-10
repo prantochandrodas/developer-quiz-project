@@ -8,7 +8,7 @@ const Cart = ({ cart }) => {
             <img src={logo} alt="" />
             </div>
             <div className='cart-footer'>
-                {name}
+                <p>{name}</p>
                 <button className='btn btn-primary'>Start Practice</button>
             </div>
       </div>
