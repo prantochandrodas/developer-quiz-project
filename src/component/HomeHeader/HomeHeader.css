@@ -1,9 +1,39 @@
 .homeheader img{
     width: 100%;
     height: 500px;
+    border-radius: 5px;
    
 }
+.homeheader-details{
+    width: 50%;
+    margin-right: 20px;
+}
+.homeheader-details p{
+    font-size: 30px;
+}
 .homeheader{
-    width: 95%;
-    margin: 0 auto;
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media only screen and (max-width:688px){
+    .homeheader{
+        flex-direction: column-reverse;
+    }
+    .homeheader-details{
+        width: 100%;
+        margin-right: 0px;
+    }
+}
+@media screen and (min-width:687px) and (max-width:991px){
+    .homeheader{
+        flex-direction: column-reverse;
+    }
+    .homeheader-details{
+        width: 100%;
+        margin-right: 0px;
+    }
 }
