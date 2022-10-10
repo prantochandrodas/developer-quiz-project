@@ -1,0 +1,17 @@
+.cart-img img{
+    background-color: rgb(197, 230, 230);
+    width: 250px;
+    
+}
+.cart{
+    width: 251px;
+    border: 1px solid rgb(207, 196, 196);
+    margin: 20px 0;
+   
+}
+.cart-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 0 10px;
+}

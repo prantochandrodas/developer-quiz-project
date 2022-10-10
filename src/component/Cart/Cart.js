@@ -1,11 +1,17 @@
 import React from 'react';
-
-const Cart = ({cart}) => {
-    console.log(cart);
+import './Cart.css'
+const Cart = ({ cart }) => {
+    const { logo ,name} = cart;
     return (
-        <div>
-            
-        </div>
+      <div className='cart'>
+            <div className='cart-img'>
+            <img src={logo} alt="" />
+            </div>
+            <div className='cart-footer'>
+                {name}
+                <button className='btn btn-primary'>Start Practice</button>
+            </div>
+      </div>
     );
 };
 

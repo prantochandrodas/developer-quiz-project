@@ -8,6 +8,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
  
 }
+.bgcolor{
+  /* background-color:rgb(179, 205, 214); */
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
