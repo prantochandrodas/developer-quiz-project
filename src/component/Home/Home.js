@@ -6,7 +6,7 @@ import './Home.css'
 const Home = () => {
   const topic = useLoaderData();
 
-  console.log(topic)
+   console.log(topic)
   return (
     <div className='home'>
       <HomeHeader></HomeHeader>
