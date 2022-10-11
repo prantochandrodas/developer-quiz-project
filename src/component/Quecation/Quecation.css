@@ -1,6 +1,28 @@
 .quecation-container{
     /* border: 1px solid rgb(158, 151, 151); */
-    margin: 20px 0;
+    margin: 20px auto;
     padding: 20px;
     background-color: aliceblue;
+    box-shadow: 10px 2px 2px rgb(92, 135, 172);
+    border-radius: 5px;
+    width: 60%;
+}
+.ico{
+    font-size: 20px;
+}
+.que{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.que h4{
+    margin: 0;
+}
+.que-icon{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    cursor: pointer;
 }
