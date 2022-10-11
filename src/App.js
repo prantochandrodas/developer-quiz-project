@@ -14,7 +14,7 @@ function App() {
           element:<Main></Main>,
           children:[
             {
-              path:'/',
+              path:'home',
               loader:async()=>fetch('https://openapi.programming-hero.com/api/quiz'),
               element:<Home></Home>
             },
@@ -31,6 +31,10 @@ function App() {
               path:'statistics',
               loader:async()=>fetch('https://openapi.programming-hero.com/api/quiz'),
               element:<Statistics></Statistics>
+            },
+            {
+              path:'*',
+              element:<div> <h1 className='text-center my-5'>404 Page not found</h1></div>
             }
           
           ]
