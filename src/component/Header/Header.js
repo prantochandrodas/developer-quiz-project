@@ -16,6 +16,8 @@ function Header() {
                         <div className='styleLink'>
                             
                             <Link className='' to={'/'}>Home</Link>
+                            <Link to={'/statistics'}>Statistics</Link>
+
                             <Link to={'/blog'}>Blog</Link>
                         </div>
                       

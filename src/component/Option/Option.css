@@ -21,3 +21,9 @@ background-color: rgb(88, 150, 205);
 color: white;
 
 }
+.correct{
+    background-color: greenyellow;
+}
+.wrong{
+    background-color: red;
+}
