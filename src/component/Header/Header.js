@@ -14,7 +14,7 @@ function Header() {
                     <Nav className="me-auto">
 
                         <div className='styleLink'>
-                        <NavLink className={({isActive})=>isActive ? 'active' : 'notActive'} to={'/home'}>Home</NavLink>
+                        <NavLink  to={'/'}>Home</NavLink>
                          
                             <NavLink to={'/statistics'}>Statistics</NavLink>
 

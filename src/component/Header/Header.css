@@ -15,14 +15,8 @@
 .bgNav{
     background-color: rgb(236, 230, 230);
 }
-.active{
-    background-color: rgb(224, 204, 204);
-    border-radius: 5px;
-    padding: 10px;
-}
-.notActive{
-    background-color: rgb(236, 230, 230) ;
-}
+
+
 @media only screen and (max-width:688px){
     .styleLink a{
         display: block;

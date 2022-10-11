@@ -2,9 +2,10 @@ import React from 'react';
 import { DEFAULT_BREAKPOINTS } from 'react-bootstrap/esm/ThemeProvider';
 import Option from '../Option/Option';
 import './Quecation.css';
-import { BeakerIcon ,EyeIcon} from '@heroicons/react/24/solid'
+import { EyeIcon} from '@heroicons/react/24/solid'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
 const Quecation = ({ que }) => {
 //    console.log(que);
     const { question ,options,correctAnswer} = que;
@@ -45,6 +46,7 @@ const Quecation = ({ que }) => {
                 </div>
 
             </div>
+           
         </div>
     );
 };
